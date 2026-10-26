@@ -73,8 +73,13 @@ The prediction feature expects numeric CSV data with exactly 561 columns in the 
 ## Project Structure
 
 ```text
+## Project Structure
+
+```text
+## Project Structure
+
+```text
 human-activity-recognition/
-├── UCI HAR Dataset/
 ├── models/
 │   ├── linear_svm_model.joblib
 │   └── random_forest_model.joblib
@@ -91,7 +96,15 @@ human-activity-recognition/
 ├── load_data.py
 ├── plot_model_comparison.py
 ├── train_model.py
+├── visualize_results.py
+├── .gitignore
 └── README.md
+```
+
+**Note:** The original UCI HAR dataset is not included in this repository. Download it from the [official UCI dataset page](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones) and extract it into the project directory as `UCI HAR Dataset/` before running scripts that require the dataset.
+```
+
+**Note:** The original UCI HAR dataset is not included in this repository. Download it from the [official UCI dataset page](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones) and extract it into the project directory as `UCI HAR Dataset/` before running scripts that require the dataset.
 ```
 
 ## Installation and Setup
