@@ -99,7 +99,7 @@ human-activity-recognition/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/human-activity-recognition.git
+git clone https://github.com/ImashaCheni2003/human-activity-recognition.git
 cd human-activity-recognition
 ```
 
